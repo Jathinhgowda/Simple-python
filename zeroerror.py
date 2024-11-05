@@ -2,5 +2,5 @@ a = 2
 b = 0
 try:
   print(a/b)
-except Error as e:
+except ZeroDivisionError as e:
   print(e)
