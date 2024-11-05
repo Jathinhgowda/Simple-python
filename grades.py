@@ -26,3 +26,4 @@ with open("student_averages.txt", "w") as file:
     file.write(f"\nAverage Grade: {average_grade:.2f}\n")
 
 print("Results have been written to 'student_averages.txt'")
+print(f"\nAverage Grade: {average_grade:.2f}\n")
