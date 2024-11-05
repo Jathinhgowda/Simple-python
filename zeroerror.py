@@ -1,3 +1,6 @@
 a = 2
 b = 0
-print(a/b)
+try:
+  print(a/b)
+except Error as e:
+  print(e)
